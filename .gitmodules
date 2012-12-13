@@ -1,0 +1,6 @@
+[submodule "mobile-detect"]
+	path = mobile-detect
+	url = git://github.com/serbanghita/Mobile-Detect.git
+[submodule "vendor/mobile-detect"]
+	path = vendor/mobile-detect
+	url = git://github.com/serbanghita/Mobile-Detect.git
