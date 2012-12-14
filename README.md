@@ -19,5 +19,5 @@ $device = new Device();
 if ($device->is_mobile()) 
 {
   // Any mobile device.
-};
+}
 ```
