@@ -6,7 +6,7 @@ abstract class Kohana_Device
 
 	public function __construct()
 	{
-		include Kohana::find_file('vendor/mobile-detect', 'Mobile_Detect');
+		include_once Kohana::find_file('vendor/mobile-detect', 'Mobile_Detect');
 
 		$this->_detector = new Mobile_Detect();
 	}
